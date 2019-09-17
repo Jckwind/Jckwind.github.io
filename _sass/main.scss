@@ -71,6 +71,13 @@ html {
     height: auto;
 }
 
+.screenshot-flipped {
+    width: 25%;
+    padding: 0 12%;
+    height: auto;
+    order: -1;
+}
+
 a.downloadBtn {
     color: #fff;
     border-radius: 0.2em;
@@ -301,6 +308,8 @@ a:not(.copyright):hover{
     .screenshot-info { width: 95%; margin: 0 auto; padding: 0}
 
     .screenshot { width: 75%; margin: auto; padding: 0}
+
+    .screenshot-flipped { width: 75%; margin: auto; padding: 0; order: 1;}
 
 }
 
