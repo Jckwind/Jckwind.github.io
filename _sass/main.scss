@@ -12,13 +12,6 @@ body {
     min-height: 110vh;
 }
 
-#home {
-    background-image: url('/assets/images/ShowcaseV1.png');
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    margin-bottom: 10px;
-}
 html {
     background-color: #2f2fa2;
 }
@@ -34,10 +27,6 @@ html {
     height: 1px;
     background: #F64C72;
     border: 0;
-}
-
-.divider-Home {
-    margin-left: 0;
 }
 
 .divider-User-Agreement {
@@ -92,7 +81,7 @@ a.downloadBtn2 {
     border-radius: 0.2em;
     font-family: $sarala;
     border: 0;
-    background-color: #89CFF0;
+    background-color: #F64C72;
     box-shadow: 0px 0px 2em #000000;
     padding: 14px 40px;
     margin-top: 1.4em;
@@ -210,6 +199,27 @@ a:not(.copyright):hover{
     height: auto;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+ 
+.screenshot-info {
+    display: inline-block;
+    width: 30%;
+    padding: 0 10%;
+}
+
+.screenshot {
+    display: inline-block;
+    width: 25%;
+    padding: 0 12%;
+    height: auto;
+}
+
 .TOS-User-Agreement-Body {
     font-size: auto;
     font-family: "Times New Roman", Times, serif;
@@ -277,8 +287,6 @@ a:not(.copyright):hover{
 
     .infoLabel{ font-size: 0.9em;  }
 
-    .container { padding: 15% 20% 0 0; }
-
     .Disk, .LoadingDisk { width: 60% }
 
     .newPasswordField { width: 60%; font-size: 0.9em; }
@@ -294,8 +302,6 @@ a:not(.copyright):hover{
     .welcome {  font-size: 2em; }
 
     .infoLabel { font-size: 0.9em;  }
-
-    .container { padding: 10vh 35% 0 0; }
 
     .Disk, .LoadingDisk { width: 40% }
 
@@ -316,8 +322,6 @@ a:not(.copyright):hover{
     .welcome {  font-size: 2.7em;  }
 
     .infoLabel { font-size: 1.4em; }
-
-    .container { padding: 7.5% 35vw 0px 13%; }
 
     .downloadBtn { font-size: 1.5em;}
 
@@ -344,8 +348,6 @@ a:not(.copyright):hover{
 
     .infoLabel { font-size: 1.1em; }
 
-    .container { padding: 7.5% 35vw 0px 13%; }
-
     .downloadBtn { font-size: 1.2em;}
 
     .newPasswordField { width: 60%; font-size: 1em; }
@@ -367,8 +369,6 @@ a:not(.copyright):hover{
     .welcome {  font-size: 2.5em;  }
 
     .infoLabel { font-size: 1.2em; }
-
-    .container { padding: 10% 50% 0px 13%; }
 
     .downloadBtn { font-size: 1.5em;}
 
@@ -398,8 +398,6 @@ a:not(.copyright):hover{
     .welcome {  font-size: 3em;  }
 
     .infoLabel { font-size: 1.6em; }
-
-    .container { padding: 20% 35vw 0px 13%; }
 
     .downloadBtn { font-size: 1.5em;}
 
