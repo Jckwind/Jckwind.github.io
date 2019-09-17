@@ -47,8 +47,29 @@ html {
     letter-spacing: 1px;
     margin: 20px 0;
 }
-    
-.site-header { display: none}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+// .container-flipped {
+//     transform: scaleX(-1)
+// }
+ 
+.screenshot-info {
+    width: 30%;
+    padding: 0 10%;
+}
+
+.screenshot {
+    width: 25%;
+    padding: 0 12%;
+    height: auto;
+}
 
 a.downloadBtn {
     color: #fff;
@@ -82,7 +103,7 @@ a.downloadBtn2 {
     font-family: $sarala;
     border: 0;
     background-color: #F64C72;
-    box-shadow: 0px 0px 2em #000000;
+    box-shadow: 0px 0px 1em #000000;
     padding: 14px 40px;
     margin-top: 1.4em;
     text-decoration: none;
@@ -199,27 +220,6 @@ a:not(.copyright):hover{
     height: auto;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    text-align: center;
-}
- 
-.screenshot-info {
-    display: inline-block;
-    width: 30%;
-    padding: 0 10%;
-}
-
-.screenshot {
-    display: inline-block;
-    width: 25%;
-    padding: 0 12%;
-    height: auto;
-}
-
 .TOS-User-Agreement-Body {
     font-size: auto;
     font-family: "Times New Roman", Times, serif;
@@ -295,6 +295,12 @@ a:not(.copyright):hover{
         -webkit-background-size: auto;
         background-size: auto 100%; 
     }
+
+    .container { display: inline-block; }
+
+    .screenshot-info { width: 95%; margin: 0 auto; padding: 0}
+
+    .screenshot { width: 75%; margin: auto; padding: 0}
 
 }
 
@@ -392,6 +398,8 @@ a:not(.copyright):hover{
     .TOS-logo {width: 25%;}
 
     .Disk, .LoadingDisk { width: 200px }
+
+    .screenshot, .screenshot-info { display: inline-block;}
 }
 
 @media screen and (min-width: 1024px) and (orientation : portrait){
