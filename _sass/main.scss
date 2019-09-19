@@ -55,10 +55,6 @@ html {
     width: 100%;
     text-align: center;
 }
-
-// .container-flipped {
-//     transform: scaleX(-1)
-// }
  
 .screenshot-info {
     width: 30%;
@@ -98,20 +94,6 @@ a.changePassword {
     font-family: $sarala;
     background-color: #2f2fa2;
     padding: 10px 40px;
-    margin-top: 1.4em;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-}
-
-a.downloadBtn2 {
-    color: #fff;
-    border-radius: 0.2em;
-    font-family: $sarala;
-    border: 0;
-    background-color: #F64C72;
-    box-shadow: 0px 0px 1em #000000;
-    padding: 14px 40px;
     margin-top: 1.4em;
     text-decoration: none;
     text-align: center;
@@ -290,6 +272,8 @@ a:not(.copyright):hover{
  
 @media screen and (max-width : 767px) and (orientation : portrait) {
 
+    .appstoreButton { width: 50%; } 
+
     .welcome {  font-size: 2em; }
 
     .infoLabel{ font-size: 0.9em;  }
@@ -309,6 +293,9 @@ a:not(.copyright):hover{
 }
 
 @media screen and (max-width: 767px) and (orientation : landscape){
+
+    .appstoreButton { width: 40%; } 
+
     .welcome {  font-size: 2em; }
 
     .infoLabel { font-size: 0.9em;  }
@@ -333,6 +320,9 @@ a:not(.copyright):hover{
 }
 
 @media screen and (min-width : 768px) and (max-width : 1023px)  {
+
+    .appstoreButton { width: 35%; } 
+
     .welcome {  font-size: 2.7em;  }
 
     .infoLabel { font-size: 1.4em; }
@@ -387,6 +377,9 @@ a:not(.copyright):hover{
 }
 
 @media screen and (min-width: 1024px) {
+
+    .appstoreButton { width: 40%; } 
+
     .welcome {  font-size: 2.5em;  }
 
     .infoLabel { font-size: 1.2em; }
